@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+KR:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* used to remove horizontal scrollbar in body */
+}
+
+.coverimg {
+  background: red url(/images/dog-couple\ 3.jpg);
+  background-repeat: repeat-y;
+  background-size: 100% 120%;
+  height: 100vh;
+}
+
+.logo {
+  position: relative;
+  bottom: 30rem;
+  left: 2rem;
+  height: auto;
+  width: 10rem;
+  max-width: 100%;
+  filter: brightness(1);
+  filter: contrast(200%);
+  filter: drop-shadow(0 0 0.75rem rgb(116, 135, 242));
+}
+
+.service {
+  position: relative;
+  bottom: 0.1em;
+  left: 65rem;
+  height: 10rem;
+  max-width: 100%;
+  filter: brightness(1);
+  filter: contrast(200%);
+  filter: drop-shadow(0 0 0.75rem rgb(160, 160, 20));
+}
+
+.btn {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+.login {
+  background-color: #6d5e63;
+  color: white;
+  border: none;
+  width: 6em;
+  font-size: 1rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 0.8rem;
+  margin-right: 0.8rem;
+  padding: 0.4em 0.1rem;
+  border-radius: 8px;
+}
+
+.login:hover {
+  cursor: pointer;
+  background-color: #5d5155;
+}
+
+.join {
+  background-color: #368d87;
+  color: white;
+  border: none;
+  width: 7em;
+  font-size: 1rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 0.8rem;
+  padding: 0.4em 0.1rem;
+  border-radius: 8px;
+}
+
+.join:hover {
+  cursor: pointer;
+  background-color: #397975;
+}
+
+@media screen and (max-width: 800px) {
+  body .coverimg,
+  .btn {
+    width: 100%;
+  }
+}
+
+.para {
+  /* background: red; */
+  color: rgb(255, 255, 253);
+  font-size: 300%;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: -15%;
+  margin-left: 25%;
+  /* box-shadow: 1px 5px 5px #368d87; */
+}
+
+.para1 {
+  text-shadow: 2px 2px rgb(255, 12, 170);
+}
+
+.para2 {
+  text-shadow: 2px 2px rgb(255, 12, 170);
+}
+
+.profile {
+  background: white;
+  height: 90vh;
+}
+
+.red-heading {
+  color: #d20200;
+  width: 100%;
+  font-size: 26px;
+  font-weight: 900;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 1.5;
+  position: relative;
+  top: 0.8rem;
+}
+
+.flex1 {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  line-height: 1.4rem;
+  margin-top: 2rem;
+}
+
+.g1 {
+  width: 20%;
+  font-size: 13px;
+  margin-right: 2rem;
+}
+
+.g2 {
+  width: 20%;
+  font-size: 13px;
+  margin-right: 2rem;
+}
+
+.g3 {
+  width: 20%;
+  font-size: 13px;
+}
+
+.profile-heading {
+  color: #d20200;
+  width: 100%;
+  font-size: 26px;
+  font-weight: 900;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 4rem;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+.box1 {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  width: 24%;
+  margin-right: 1rem;
+}
+
+.box1 button {
+  margin-top: 1rem;
+}
+
+.box2 {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  width: 24%;
+  margin-right: 1rem;
+}
+
+.box2 button {
+  margin-top: 0.1rem;
+}
+
+.box3 {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  width: 24%;
+  padding-bottom: 1rem;
+}
+
+.flex2 h3 {
+  color: #666;
+  font-weight: 900;
+  font-size: 17px;
+  padding: 1rem 1rem;
+}
+
+.flex2 p {
+  font-size: 13px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 18px;
+  word-spacing: 2px;
+}
+
+.flex2 button {
+  border: 1px solid transparent;
+  color: #484f4f;
+  background-color: #76c7c0;
+  box-shadow: 0 4px 0 #484f4f;
+  font-weight: lighter;
+  text-decoration: solid;
+  margin-left: 8rem;
+  padding: 6px 20px;
+}
+
+.flex2 button:hover {
+  background-color: #4fb3ab;
+  cursor: pointer;
+}
+
+.item-center {
+  text-align: center;
+}
+
+.prime {
+  background: url(/images/city-background.jpg);
+  height: 100vh;
+}
+
+.prime-heading {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  line-height: 1.4rem;
+  text-shadow: 2px 2px gray;
+}
+
+.h-1 {
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  position: relative;
+  top: 5rem;
+  left: 24rem;
+}
+
+.h-2 {
+  color: white;
+  font-size: 28px;
+  font-weight: bolder;
+  position: relative;
+  top: 3.6rem;
+  left: 65rem;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: center;
+  gap: 20%; /* sets the gap between flex items */
+  margin-top: 4rem;
+  height: 75%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.prime-box1 {
+  background: black url(/images/dog-couple\ 2.jpg) no-repeat;
+  background-size: 100% 70%;
+  border-radius: 10%;
+  border: 7px solid rgb(75, 218, 218);
+  width: 80%;
+  height: 90%;
+}
+
+.prime-box2 {
+  background: black url(/images/dog-couple\ 6.jpg) no-repeat;
+  background-size: 100% 70%;
+  border-radius: 10%;
+  border: 7px solid rgb(75, 218, 218);
+  width: 80%;
+  height: 90%;
+}
+
+.card1 {
+  color: white;
+  position: relative;
+  top: 22rem;
+  text-align: center;
+}
+
+.card1 p {
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
+}
+
+.card1 button {
+  border-radius: 10px;
+  /* box-shadow: 0 4px 0 #3f6868; */
+  padding: 6px 6px;
+  margin-top: 8%;
+}
+
+.card1 button:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.card2 {
+  color: white;
+  position: relative;
+  top: 22rem;
+  text-align: center;
+}
+
+.card2 p {
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
+}
+
+.card2 button {
+  border-radius: 10px;
+  /* box-shadow: 0 4px 0 #3f6868; */
+  padding: 6px 6px;
+  margin-top: 3%;
+}
+
+.card2 button:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: purple;
+  color: white;
+  text-align: center;
+  height: 8vh;
+}
+
+
