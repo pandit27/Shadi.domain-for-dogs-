@@ -18,7 +18,7 @@ body {
 }
 
 .coverimg {
-  background: red url(/images/dog-couple\ 3.jpg);
+  background: red url(dog-couple\ 3.jpg);
   background-repeat: repeat-y;
   background-size: 100% 120%;
   height: 100vh;
@@ -256,7 +256,7 @@ body {
 }
 
 .prime {
-  background: url(/images/city-background.jpg);
+  background: url(city-background.jpg);
   height: 100vh;
 }
 
@@ -301,7 +301,7 @@ body {
 }
 
 .prime-box1 {
-  background: black url(/images/dog-couple\ 2.jpg) no-repeat;
+  background: black url(dog-couple\ 2.jpg) no-repeat;
   background-size: 100% 70%;
   border-radius: 10%;
   border: 7px solid rgb(75, 218, 218);
@@ -310,7 +310,7 @@ body {
 }
 
 .prime-box2 {
-  background: black url(/images/dog-couple\ 6.jpg) no-repeat;
+  background: black url(dog-couple\ 6.jpg) no-repeat;
   background-size: 100% 70%;
   border-radius: 10%;
   border: 7px solid rgb(75, 218, 218);
