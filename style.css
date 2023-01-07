@@ -18,7 +18,7 @@ body {
 }
 
 .coverimg {
-  background: red url(https://hosting.photobucket.com/images/i/priyanshujha131/dog-couple_3.jpg?width=320&height=320&fit=bounds);
+  background: red url(https://images.unsplash.com/photo-1515870672913-a4c298575776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   background-repeat: repeat-y;
   background-size: 100% 120%;
   height: 100vh;
